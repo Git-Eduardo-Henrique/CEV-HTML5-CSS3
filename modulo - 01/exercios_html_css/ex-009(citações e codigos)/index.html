@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações</title>
+</head>
+<body>
+    <h1>OUTRAS FORMATAÇÕES</h1>
+
+    <h2>Codigo fonte e pré formatação</h2>
+    <!-- a tag 'code' serve para deixar as letras com o mesmo tamanho (otimo para codigos)-->
+    <p>O comando <code>document.getElemetById('sus')</code> é um codigo escrito em JavaScript</p>
+    <pre> <!-- a tag 'pre' deixa a escrita com a formatação original -->
+    <code>
+    num = int(input('digite um numero: '))
+    if num > 0:
+        print("voce digitou um numero maior que zero, numero: {num}")
+    else:
+        print ("seu numero é menor que zero")
+    </code>
+    </pre>
+
+    <h2>Citações</h2>
+    <!-- cria as aspas com o sentido de ser uma citação -->
+    <p><q>uma mão lava as outras</q></p>
+
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+
+    <!-- a tag 'blockquote' cria uma sitação a um conteudo de algum autor ou outros-->
+    <!-- a função 'cite' faz uma sitação do link original de onde veio a sitação -->
+    <blockquote cite='https://www.trivago.com.br'>
+        a diferença entre elementos inline e um bloco de texto é importante
+    </blockquote>
+
+    <!-- a atg 'abbr' serve para gerar o significado de alguma abreviação -->
+    <h2>Abreviações</h2>
+    <p>Eu estou aprendendo a criar sites com 
+        <abbr title="HyperText Markup Language">HTML</abbr>
+        e
+        <abbr title="Cascading Style Sheets">CSS</abbr>
+    </p>
+
+    <!-- a tag 'bdo' deixa o texto invertido -->
+    <h2>Textos invertidos</h2>
+    <p><bdo dir="rtl">Eu amo jogar minecraft</bdo></p>
+</body>
+</html>

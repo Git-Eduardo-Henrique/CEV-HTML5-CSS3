@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Video hospedado no meu proprio servidor</h1>
+    <hr>
+
+    <h2>video normal</h2>
+    <video src="videos/video.mp4" width="250" height="500" controls></video>
+
+    <h2>video com source</h2>
+    <video controls width="250" height="500" poster="images/ciano.png" loop>
+        <source src="videos/video.mp4" type="video/mp4">
+        <source src="videos/video.ogv" type="video/ogg">
+
+        <p>nao foi possivel carregar o video <a href="videos/video.mp4">baixe aqui</a></p>
+    </video>
+</body>
+</html>

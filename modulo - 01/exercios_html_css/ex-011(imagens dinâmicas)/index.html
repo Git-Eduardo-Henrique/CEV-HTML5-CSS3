@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>diminua e almente a tela</h1>
+
+    <!-- type="image/png" para imagens png -->
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="images/teste250x250.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="images/teste500x500.png" type="image/png">
+
+        <img src="images/teste1000x1000.png" alt="foto_teste">
+    </picture>
+</body>
+</html>
